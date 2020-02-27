@@ -1,0 +1,8 @@
+=============== Feb 26, 2020 (IST) ===============
+11:15:56.200792 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:15:56.256597 db@open opening
+11:15:56.257096 version@stat F·[] S·0B[] Sc·[]
+11:15:56.324029 db@janitor F·2 G·0
+11:15:56.324121 db@open done T·67.473557ms
+11:15:56.325008 db@close closing
+11:15:56.325314 db@close done T·297.547µs

@@ -1,0 +1,28 @@
+=============== Feb 26, 2020 (IST) ===============
+11:15:55.817313 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:15:56.130787 db@open opening
+11:15:56.132466 version@stat F·[] S·0B[] Sc·[]
+11:15:56.198170 db@janitor F·2 G·0
+11:15:56.198285 db@open done T·67.417434ms
+11:15:56.199761 db@close closing
+11:15:56.199989 db@close done T·222.915µs
+=============== Feb 26, 2020 (IST) ===============
+12:01:25.536348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:01:25.536486 version@stat F·[] S·0B[] Sc·[]
+12:01:25.536507 db@open opening
+12:01:25.536542 journal@recovery F·1
+12:01:25.539115 journal@recovery recovering @1
+12:01:25.841918 memdb@flush created L0@2 N·10 S·628B "H\xf7<..\r\xa9\x0f,v3":"r\x00\x00..\r\xa9\x0f,v5"
+12:01:25.852570 version@stat F·[1] S·628B[628B] Sc·[0.25]
+12:01:25.959538 db@janitor F·3 G·0
+12:01:25.959628 db@open done T·423.079757ms
+=============== Feb 27, 2020 (IST) ===============
+10:38:56.431018 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:38:56.474079 version@stat F·[1] S·628B[628B] Sc·[0.25]
+10:38:56.474178 db@open opening
+10:38:56.474400 journal@recovery F·1
+10:38:56.481021 journal@recovery recovering @3
+10:38:56.675473 memdb@flush created L0@5 N·5628 S·290KiB "Dat..ion,v12":"r\x00\x00..\xed\xcd\x1d,v5635"
+10:38:56.683440 version@stat F·[2] S·290KiB[290KiB] Sc·[0.50]
+10:38:56.827242 db@janitor F·4 G·0
+10:38:56.827318 db@open done T·353.108642ms

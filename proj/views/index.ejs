@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Student Management System</h1>
+   <form action="setStudent" method="POST">
+     <input type="text" name="rollno" placeholder="Please Enter Roll No" required>
+     <br/><br/>
+     <input type="text" name="name" placeholder="Please Enter Name" required>
+     <br/><br/>
+     <input type="text" name="age" placeholder="Please Enter age" required>
+     <br/><br/>
+    Indian : <input type="radio" name="indian" value="true"/>yes
+    <input type="radio" name="indian" value="false"/>No
+    <br/><br/>
+    <select name="gender">
+      <option value="">Select Gender</option>
+      <option value="0">Male</option>
+      <option value="1">Female</option>
+      <option value="2">Others</option>
+     
+      
+    </select>
+    <br><br>
+    <input type="submit" value="Submit Details">
+
+   </form>
+  </body>
+</html>
